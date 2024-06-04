@@ -26,8 +26,8 @@ sign_button = driver.find_element(By.ID,'login-container')
 sign_button.click()
 WebDriverWait(driver,5).until(EC.presence_of_element_located((By.ID,"login-landing")))
 
-usermail = 'pspriyasharma931@gmail.com'
-userpass = 'ericsson@SH22'
+usermail = 'shik.gemini@yahoo.com'
+userpass = 'Ashika@2412'
 # usermail = input('enter mail id')
 # userpass = input('password')
 
